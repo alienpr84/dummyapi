@@ -1,0 +1,9 @@
+services:
+  api:
+    container_name: dummyapi_container
+    image: dummyapi_image
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./:/usr/src/app
