@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'mydummyapi'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AD8A5494D7824CC3B8C0E0A99F340AD8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2E1C0A8F9B14C71880E24B159F49791 }}
           package: .
